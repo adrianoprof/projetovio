@@ -25,7 +25,7 @@ jobs:
 
       # Ação oficial não-oficial (de comunidade) para deploy na Vercel
       - name: Deploy para Vercel
-        uses: amondnet/vercel-action@v25
+        uses: amondnet/vercel-action@v41
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
