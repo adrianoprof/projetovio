@@ -96,7 +96,7 @@ function Login() {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Vio
+          Vio - Testando deploy
         </Typography>
         <Box
           component="form"
@@ -134,7 +134,7 @@ function Login() {
             sx={{
               mt: 3,
               mb: 2,
-              backgroundColor: "red",
+              backgroundColor: "green",
             }}
           >
             Entrar
